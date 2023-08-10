@@ -43,13 +43,29 @@ class MainActivity : AppCompatActivity() {
         var5 = var4
         var4 = var5
 
-        //var4 = null
+        var4 = null
 
         // cannot save a null into non-nullable type
         // var5 = null
 
         // if a type exists and hasn't been imported you can use
         // ctrl + space for suggestions
-        Log.i("MAIN_ACTIVITY", "${var4.length}")
+        // sorry about that.
+
+        // how to do a null safe call
+        Log.i("MAIN_ACTIVITY", "${var4?.length}")
+
+        if(var4 != null)
+        {
+            Log.i("MAIN_ACTIVITY", "${var4.length}")
+        }
+
+        // LOG LEVELS
+        Log.v("VERBOSE", "VERBOSE LOG")
+        Log.i("INFO", "INFO LOG")
+        Log.d("DEBUG", "DEBUG LOG")
+        Log.w("WARNING", "WARNING LOG")
+        Log.e("ERROR", "ERROR LOG")
+        Log.wtf("WTF", "WHAT A TERRIBLE FAILURE")
     }
 }
