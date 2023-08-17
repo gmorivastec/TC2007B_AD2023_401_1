@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="FinishActivity"
+        android:text="Button"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="18dp"
+        tools:text="Finish" />
 </androidx.constraintlayout.widget.ConstraintLayout>
