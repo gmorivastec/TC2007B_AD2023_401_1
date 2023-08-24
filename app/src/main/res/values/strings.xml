@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Intro</string>
     <string name="title_activity_compose_example">ComposeExample</string>
+    <string name="title_activity_firebase">FirebaseActivity</string>
 </resources>

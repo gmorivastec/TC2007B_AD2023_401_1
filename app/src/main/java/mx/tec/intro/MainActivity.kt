@@ -133,4 +133,12 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, ComposeExample::class.java)
         startActivity(intent)
     }
+
+    fun firebaseActivity(view : View?) {
+
+        // when we change activities we request the creation of a new activity
+        // to do so we create an intent object
+        val intent = Intent(this, FirebaseActivity::class.java)
+        startActivity(intent)
+    }
 }

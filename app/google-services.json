@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "313113012817",
+    "project_id": "itesmad2023401",
+    "storage_bucket": "itesmad2023401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313113012817:android:ba0e5377f7eb2340546670",
+        "android_client_info": {
+          "package_name": "mx.tec.intro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313113012817-eeq1h64lqcomvjpdgobcd1aso7fkfnn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQRfsXo_RvfS_dlhAu-upIJtkv8w-01P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313113012817-eeq1h64lqcomvjpdgobcd1aso7fkfnn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
